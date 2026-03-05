@@ -30,7 +30,7 @@ function generateGrid(gridSize) {
             item.style.backgroundColor = randomizeColor();
 
             let opacity = item.style.opacity;
-            item.style.opacity = opacity ? (parseFloat(opacity) + 0.1) : 0.2;
+            item.style.opacity = opacity ? (parseFloat(opacity) + 0.1) : 0.1;
         })
     })
 }
