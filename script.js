@@ -51,7 +51,7 @@ btnConfig.addEventListener("click", () => {
     let gridSize = 0;
 
     do {
-        gridSize = prompt("Enter the size of your grid", "");
+        gridSize = prompt("Enter the size of your grid (1-100)", "");
 
         console.log(gridSize);
 
